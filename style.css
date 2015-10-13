@@ -1,0 +1,160 @@
+
+* {
+	font-family: "Trebuchet MS";
+	font-size: 16px;
+	line-height: 1.25em;
+	
+	
+	
+
+
+}
+
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+hr {
+
+
+}
+.headercontainer {
+	position: fixed;
+	width: 100%;
+	
+}
+
+header {
+	color: white;
+	background-color: #000;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 900;
+	text-shadow: 2px 2px #484848;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: -8px;
+
+	
+
+}
+
+.container {
+	max-width: 50em;
+	
+	}
+
+.subscribe {
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: red;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: white;
+	margin-left: -50px;
+	margin-right: -50px;
+	border-color: grey;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+
+
+}
+
+.category {
+	text-transform: uppercase;
+	color: red;
+	padding-top: 130px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: grey;
+}
+
+.info {
+	display: flex;
+}
+
+.author {
+	color: grey;
+	font-size: 15px;
+}
+
+.posted {
+	color: grey;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.image {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	display: block;
+
+  	
+
+}
+
+img {
+	width: 94vw;
+	
+	padding-right: -5px;
+
+}
+
+
+.caption {
+	font-size: 15px;
+	font-weight: 90%;
+	background-color: #f7f7f7;
+}
+
+.captionheader {
+	font-weight: 900;
+}
+
+
+
+
+article {
+	padding-top: 8px
+}
+
+ @media screen and (min-width: 500px) {
+	.caption {
+		max-width: 600px; 
+	}
+	img {
+		max-width: 600px;
+	}
+	.container {
+	max-width: 50em;
+	margin-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
